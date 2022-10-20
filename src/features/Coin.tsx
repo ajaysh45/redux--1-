@@ -5,7 +5,7 @@ const Coin = () => {
     const count =useSelector((state : any) => state.counterState.count)
   return (
     <div>
-        <span className='value'> Coin: {count} </span>
+        <span className='value'>  {count} </span>
     </div>
   )
 }
